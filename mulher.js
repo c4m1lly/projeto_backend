@@ -6,9 +6,9 @@ const porta = 3333
 
 function mostraMulher(request,response) {
     response.json({
-        Nome: "Camilly Silva",
-        Imagem: "https://avatars.githubusercontent.com/u/85909520?v=4",
-         Bio: "Student Software Engineering"
+        nome: "Camilly Silva",
+        imagem: "https://avatars.githubusercontent.com/u/85909520?v=4",
+         bio: "Student Software Engineering"
     })
 }
 
